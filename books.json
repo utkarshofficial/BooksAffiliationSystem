@@ -1,0 +1,112 @@
+[
+    {
+        "type":"Growth",
+        "books": [
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Thik and Grow",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            }
+        ]
+    },
+    {
+        "type":"Mind",
+        "books": [
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            },
+            {
+                "title": "Don't Overthink",
+                "cover": "book_cover.webp",
+                "buylink": "#"
+            }
+        ]
+    }
+]
