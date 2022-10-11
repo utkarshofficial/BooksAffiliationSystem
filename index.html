@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Affiliation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="index.html">
+                <img src="book_af_logo.png" alt="" class="bookaf-logo">
+            </a>
+            <a class="nav-items" href="#">Home</a>
+            <div class="dropdown">
+                <button class="nav-items">Category</button>
+                <div id="dropContent" class="dropdown-content">
+                    <span class="drop">Growth</span>
+                    <span class="drop">Income</span>
+                    <span class="drop">Fitness</span>
+                    <span class="drop">Mind</span>
+                </div>
+            </div>
+            <a class="nav-items hide" href="#">About Us</a>
+            <a class="nav-items" href="#">Contact Us</a>
+        </div>
+        <hr>
+    </nav>
+    <div class="category-show">
+        <span class="temp-title">Category: </span>
+        <span id="category" class="category-type">Growth</span>
+        <span> Books</span>
+    </div>
+    <div id="books" class="books-container">
+        <section class="book-box">
+            <span class="temp-title">Title</span>
+            <span class="book-name">Think and Grow Rich</span>
+            <img class="book-cover" src="book_cover.webp" width="170" height="200">
+            <a class="buy-btn" href="#" alt="buy link">Buy Now</a>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
