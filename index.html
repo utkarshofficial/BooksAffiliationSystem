@@ -55,6 +55,7 @@
         doc,
         getFirestore,
         setDoc,
+        getDoc,
       } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-firestore.js";
 
       // TODO: Add SDKs for Firebase products that you want to use
@@ -74,6 +75,18 @@
       const app = initializeApp(firebaseConfig);
       const db = getFirestore(app);
 
+      // getting full docs of books
+      const docRef = doc(db, "books","income");
+      const docSnap = await getDoc(docRef);
+      const incomeSnap = await getDoc(doc(db, "books","income"));
+      const mindSnap = await getDoc(doc(db, "books","mind"));
+      const growthSnap = await getDoc(doc(db, "books","growth"));
+      const fitnessSnap = await getDoc(doc(db, "books","fitness"));
+
+      console.log(incomeSnap.data());
+      console.log(mindSnap.data());
+      console.log(growthSnap.data());
+      console.log(fitnessSnap.data());
      
     </script>
   </body>
