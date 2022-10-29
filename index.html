@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Affiliation</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="spinner.css">
   </head>
 
   <body>
@@ -36,15 +37,36 @@
     </div>
     <div id="books" class="books-container">
       <section class="book-box">
-        <span class="temp-title"></span>
+        <span class="temp-title">Loading...</span>
         <span class="book-name"></span>
-        <img
-          class="book-cover"
-          src=""
-          width="170"
-          height="200"
-        />
-        <a class="buy-btn" href="#" alt="buy link">Buy Now</a>
+        <div class="spinner-box">
+          <div class="lds-ripple"><div></div><div></div></div>
+        </div>
+        <a class="buy-btn" href="#" alt="buy link">Fetching...</a>
+      </section>
+      <section class="book-box">
+        <span class="temp-title">Loading...</span>
+        <span class="book-name"></span>
+        <div class="spinner-box">
+          <div class="lds-ripple"><div></div><div></div></div>
+        </div>
+        <a class="buy-btn" href="#" alt="buy link">Fetching...</a>
+      </section>
+      <section class="book-box">
+        <span class="temp-title">Loading...</span>
+        <span class="book-name"></span>
+        <div class="spinner-box">
+          <div class="lds-ripple"><div></div><div></div></div>
+        </div>
+        <a class="buy-btn" href="#" alt="buy link">Fetching...</a>
+      </section>
+      <section class="book-box">
+        <span class="temp-title">Loading...</span>
+        <span class="book-name"></span>
+        <div class="spinner-box">
+          <div class="lds-ripple"><div></div><div></div></div>
+        </div>
+        <a class="buy-btn" href="#" alt="buy link">Fetching...</a>
       </section>
     </div>
     <script type="module" src="script.js"></script>

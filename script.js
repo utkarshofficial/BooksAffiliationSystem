@@ -31,6 +31,9 @@ document.querySelectorAll(".drop").forEach((drop) => {
   drop.addEventListener("click", () => {
     category.innerHTML = drop.innerHTML;
     localStorage.setItem("currentBookSelection", drop.innerHTML);
+    // show dummy books when user click to a category
+    let loadingBooksDummy = '<section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span><div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>  <section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span>    <div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>  <section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span>    <div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>  <section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span>    <div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>';
+    document.querySelector("#books").innerHTML = loadingBooksDummy;
     getBooksData();
   });
 });
