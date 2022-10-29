@@ -1,177 +1,180 @@
- // Add a new document in collection "income"
- await setDoc(
-    doc(db, "books", "income"),
-    {
-    0:{
-      buylink:
-        "https://www.amazon.in/Finance-Non-Finance-People-Second-Sandeep/dp/0367322080/ref=sr_1_1?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-1",
-      bookcover:
-        "https://m.media-amazon.com/images/I/41O4vF1N0lL._SX323_BO1,204,203,200_.jpg",
-      bookname: "Finance for Non-Finance People",
-      bookdetails:
-        "Finance is key to every business organisation as well as outside. This book makes sense of the Finance world from a non-finance perspective. It introduces, explains and demystifies essential ideas of business finance to those who do not have financial background or training. Lucid, accessible, yet comprehensive, the book delineates the financial workings of businesses and offers an overview of corporate finance in the global context. The volume: contains effective tools for financial communication, monitoring, analysis and resource allocation; provides important learning aids such as figures, tables, illustrations and case studies; highlights fundamental concepts and applications of finance; surveys global corporate practices, recent trends and current data. This updated second edition contains new sections on tax planning, including income Tax and Goods and Services Tax in India. A guide to building financial acumen, this book will be a useful resource for executive and management development programmes (edps & maps) oriented towards business managers, including MBA programmes. It will benefit business executives, corporate heads, entrepreneurs, government officials, teachers, researchers, and students of management and business, as well as those who deal with finance or financial matters in their daily lives.",
-      ratings: "3.8 out of 5",
-      author:
-        "Sandeep Goel is Associate Professor of Accounting and Finance at Management Development Institute (MDI) Gurgaon, India. He holds two doctorates, one in Finance; and another in Accounting from the Faculty of Management Studies, University of Delhi. He completed his bachelor's and master's degrees in commerce from Shri Ram College of Commerce, and the Department of Commerce, University of Delhi, respectively. He has over two decades of industry and academic experience across various organisations and institutions, including the Shri Ram Group, the University of Delhi and MDI. He is a management trainer and consultant to top business organisations and has conducted over 200 programmes dealing with financial skills and consultancy assignments on financial management, accounting application and corporate governance.",
-    },
-    1:{
-      buylink:
-        "https://www.amazon.in/Taxmanns-Students-Guide-Income-University/dp/9356223726/ref=sr_1_2?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-2",
-      bookcover:
-        "https://m.media-amazon.com/images/I/41VKtCQixlL._SX378_BO1,204,203,200_.jpg",
-      bookname: "Taxmann's Students' Guide to Income Tax",
-      bookdetails:
-        "Taxmann's flagship publication for Students on Income Tax has been designed to bridge the gap between theory and application. This book is written in simple language, explaining the provision of the law in a step-by-step manner – with the help of suitable illustrations, without resorting to paraphrasing of sections and legal jargons. This book is an authentic, up-to-date & amended textbook on Income Tax for students of B.Com., M.Com., MBA and other Professional Examinations.",
-      ratings: "5 out of 5",
-      author:
-        "Dr. Vinod K. Singhania got his PhD from the Delhi School of Economics in 1976. His field of special interest includes all facets of corporate legislation and corporate economics, especially tax laws.",
-    },
-    2:{
-      buylink:
-        "https://www.amazon.in/Taxmanns-Income-Tax-Act-POCKET/dp/9356220964/ref=sr_1_6?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-6",
-      bookcover:
-        "https://m.media-amazon.com/images/I/51uun37jHTL._SX339_BO1,204,203,200_.jpg",
-      bookname: "Taxmann's Income Tax Act",
-      bookdetails: "",
-      ratings: "3.8 out of 5",
-      author:
-        "Taxmann Publications has a dedicated in-house Research & Editorial Team. This team consists of Chartered Accountants, Company Secretaries, and Lawyers. This team works under the guidance and supervision of Editor-In-Chief Mr Rakesh Bhargava.The Research and Editorial Team is responsible for developing reliable and accurate content for the readers. The team follows the six-sigma approach to achieve the benchmark of zero error in our publications and research platform. The team ensures that the following publication guidelines are thoroughly followed while developing the content:The statutory material is obtained only from the authorized and reliable sourcesKeep the readers abreast with the latest developments in the judicial and legislative fieldsPrepare the analytical write-ups on recent, controversial, and contagious issues to help the readers to understand the event and its implicationsEvery content published by Taxmann should be complete, accurate and lucidAll evidence-based statements must be supported with proper reference to Section, Circular No., Notification No., or citationsThe golden rules of grammar, style and consistency are thoroughly followedChoose a font and size that's easy to read and remain consistent across all imprint and digital publications",
-    },
-    3:{
-      buylink:
-        "https://www.amazon.in/Personal-Finance-Mandatory-Investing-capitalism-ebook/dp/B01LK6ESAK/ref=sr_1_7?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-7",
-      bookcover: "https://m.media-amazon.com/images/I/41r5Z-jXgyL.jpg",
-      bookname: "Personal Finance",
-      bookdetails:
-        "Do you have as much money as you want?It's said that you are the average of the five people you spend the most time with. If those five people are poor or financially uneducated, be on your guard, they might drag you down that rabbit hole as well. All you need to do to become rich is to learn how to play the money game. Getting ahead in the money game is pretty simple, and it's something you can start doing today, no matter how much or how little money you make. Playing the money game to perfection is the difference between living with financial anxiety or having $5,000 sitting in your account and not knowing what to do with it. This book, book 1 in the How To Make More Money Books Series, teaches you how to play the money games like a pro. Are you ready to get rich? You can start today.",
-      ratings: "3.2 out of 5",
-      author: "",
-    },
-    4:{
-      buylink:
-        "https://www.amazon.in/Taxmanns-Practice-Professional-2022-23-2023-24/dp/9356220883/ref=sr_1_9?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-9",
-      bookcover:
-        "https://m.media-amazon.com/images/I/51p63wAXkxL._SX348_BO1,204,203,200_.jpg",
-      bookname: "Taxmann's Direct Taxes Law & Practice",
-      bookdetails: "",
-      ratings: "4.6 out of 5",
-      author:
-        "Dr Vinod K. Singhania got his PhD from the Delhi School of Economics in 1976. His field of special interest includes all facets of corporate legislation and corporate economics, especially tax laws.",
-    },
-    5:{
-      buylink:
-        "https://www.amazon.in/Sterling-Bonds-Fixed-Income-Handbook-ebook/dp/B00BQHOGPG/ref=sr_1_10?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-10",
-      bookcover: "https://m.media-amazon.com/images/I/41XTnHh0RwL.jpg",
-      bookname: "The Sterling Bonds and Fixed Income Handbook",
-      bookdetails:
-        "The Sterling Bonds and Fixed Income Handbook aims to fill the knowledge gap for sterling-base investors and their advisors. Whilst investors in the equity markets can rely on numerous resources to select stocks and build portfolios, there is little information available for those who wish to buy bonds. This book takes the reader through the key features of gilts and sterling corporate bonds and offers a practical guide to putting money to work in this important and profitable asset class.",
-      ratings: "4.1 out of 5",
-      author:
-        "Mark Glowrey is Head of Retail Bond Sales at Canaccord Genuity. Prior to this, he spent over a decade as a director of Stockcube Research Limited, a leading independent analysis company. Mark has over twenty-five years' experience of trading securities and advising institutional customers, starting his career as a dealer on the floor of the London Stock Exchange in the early 1980s before moving on to specialise in fixed income securities and treasury products. In 2005, he launched Fixed Income Investor (www.fixedincomeinvestor.co.uk), a resource for private investors in the sterling fixed income market. Mark has also contributed to many well-known investment websites and publications over the years including the Investors Chronicle.",
-    },
-    6:{
-      buylink:
-        "https://www.amazon.in/Finance-Non-Finance-Managers-B-K-Chatterjee/dp/8172245262/ref=sr_1_11?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-11",
-      bookcover:
-        "https://m.media-amazon.com/images/I/51-JDPTiFIL._SX313_BO1,204,203,200_.jpg",
-      bookname: "Finance For Non-Finance Managers",
-      bookdetails:
-        "Finance for Non-Finance Managers provides information to understand the tools, techniques and nuances of financial management. This abridged version has been prepared on the basis of a careful selection of only such topics as are of immediate relevance to the non-finance personnel. The book contains chapters on basic finance concepts, financial accounting process, credit management etc. with relevant practice exercises and case studies.",
-      ratings: "5 out of 5",
-      author: "",
-    },
-    7:{
-      buylink:
-        "https://www.amazon.in/Taxmanns-Deduction-Source-Advance-Refunds/dp/9356220867/ref=sr_1_15?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-15",
-      bookcover:
-        "https://m.media-amazon.com/images/I/41MEPWMbKQL._SX331_BO1,204,203,200_.jpg",
-      bookname: "Taxmann’s Deduction of Tax at Source",
-      bookdetails:
-        "This book provides legal analysis of the provisions relating to TDS, TCS, Advance Tax and Refunds under the Income-tax Act. It also includes guidance on all practical problems supported by illustrations and legal jurisprudence.",
-      ratings: "4 out of 5",
-      author:
-        "Dr Vinod K. Singhania got his PhD from the Delhi School of Economics in 1976. His field of special interest includes all facets of corporate legislation and corporate economics, especially tax laws.",
-    },
-    8:{
-      buylink:
-        "https://www.amazon.in/Essentials-Finance-Accounting-Nonfinancial-Managers/dp/1404112014/ref=sr_1_19?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665473824&sprefix=%2Caps%2C1423&sr=8-19",
-      bookcover:
-        "https://m.media-amazon.com/images/I/5131P-MhoLL._SX325_BO1,204,203,200_.jpg",
-      bookname:
-        "The Essentials of Finance and Accounting for Nonfinancial Managers",
-      bookdetails:
-        "Frustrated by financial statements? Dread the budget process? The essentials of finance and accounting for non-financial managers is here to help. This new edition of a business classic demystifies finance and accounting and gives managers the tools they need make better decisions. Packed with fresh insights and the latest information on accounting regulations, international accounting practices and global business trends, the book reveals how to: understand the fundamentals of financial analysis, budgeting and forecasting interpret balance sheets, income/cash Flow statements and Annual reports sift through conflicting data to find the most relevant figures locate key information about competitors and suppliers analyse variances and calculate Break-Even points and other vital measures and much more expanded case studies and practice exercises reinforce the lessons and let you strengthen your skills. Imagine the impact when you grasp not only what the numbers mean-but how you can use that intelligence to drive your business forward.",
-      ratings: "3.6 out of 5",
-      author:
-        "EDWARD FIELDS has taught a popular AMA course on finance and accounting fundamentals for decades and consults with many multinational corporations on strategic and financial issues.",
-    },
-    9:{
-      buylink:
-        "https://www.amazon.in/Thinking-Fast-Penguin-Press-Non-Fiction/dp/0141033576/ref=sr_1_58?crid=17X2PVVYC434A&keywords=books+for+income+and+finance&qid=1665501161&sprefix=books+for+income+and+finance%2Caps%2C1455&sr=8-58",
-      bookcover:
-        "https://m.media-amazon.com/images/I/41I0fK0G9kL._SX328_BO1,204,203,200_.jpg",
-      bookname: "Thinking, Fast and Slow",
-      bookdetails:
-        "The phenomenal international bestseller - 2 million copies sold - that will change the way you make decisions'A lifetime's worth of wisdom' Steven D. Levitt, co-author of Freakonomics'There have been many good books on human rationality and irrationality, but only one masterpiece. That masterpiece is Thinking, Fast and Slow' Financial TimesWhy is there more chance we'll believe something if it's in a bold type face? Why are judges more likely to deny parole before lunch? Why do we assume a good-looking person will be more competent? The answer lies in the two ways we make choices: fast, intuitive thinking, and slow, rational thinking. This book reveals how our minds are tripped up by error and prejudice (even when we think we are being logical), and gives you practical techniques for slower, smarter thinking. It will enable to you make better decisions at work, at home, and in everything you do.",
-      ratings: "4.5 out of 5",
-      author:
-        "Daniel Kahneman is a Senior Scholar at Princeton University, and Emeritus Professor of Public Affairs, Woodrow Wilson School of Public and International Affairs. He was awarded the Nobel Prize in Economics in 2002.",
-    },
-    10:{
-      buylink:
-        "https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=pd_bxgy_sccl_1/257-3700383-5194419?pd_rd_w=1nBI0&content-id=amzn1.sym.d68c4347-8b80-4998-9474-4671a1e32e96&pf_rd_p=d68c4347-8b80-4998-9474-4671a1e32e96&pf_rd_r=91C9YW9CH2EPCFHZJ1AG&pd_rd_wg=GqodQ&pd_rd_r=c50f04f2-dc0e-49ef-ace4-4ab8d9dcd3e8&pd_rd_i=1847941834&psc=1",
-      bookcover:
-        "https://m.media-amazon.com/images/I/51-nXsSRfZL._SX328_BO1,204,203,200_.jpg",
-      bookname: "Atomic Habits",
-      bookdetails:
-        "‘A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less. ’ Mark Manson, author of The Subtle Art of Not Giving A F*ck________________________________People say when you want to change your life, you need to set big goals. But they’re wrong. World-renowned habits expert James Clear has discovered a simpler system for transforming your life. He knows that lasting change comes from the compound effect of hundreds of small decisions – doing two push-ups a day, waking up five minutes early, or holding a single short phone call. He calls them atomic habits. In this ground-breaking book, Clear reveals how these tiny changes will help you get 1 percent better every day. He uncovers a handful of simple life hacks (the forgotten art of Habit Stacking, the unexpected power of the Two Minute Rule, or the trick to entering the Goldilocks Zone) and delves into cutting-edge psychology and neuroscience to explain why they matter. Along the way, he tells inspiring stories of Olympic gold medalists, leading CEOs and distinguished scientists who have used the science of small habits to stay productive, motivated and happy. These small changes will have a revolutionary effect on your career, your relationships and your life. ________________________________‘James Clear has spent years honing the art and studying the science of habits. This engaging, hands-on book is the guide you need to break bad routines and make good ones. ’ Adam Grant, author of Originals‘A special book that will change how you approach your day and live your life. ’ Ryan Holiday, author of The Obstacle is the Way",
-      ratings: "4.7 out of 5",
-      author:
-        "James Clear is an expert on habits and decision making. He made his name as the author of one of the fastest-growing email newsletters in history, which grew from zero to 100,000 subscribers in under two years. Today, his newsletter has over 400,000 subscribers and his articles at jamesclear receive 10 million hits each year. His work frequently appears in publications including the New York Times, Forbes and Business Insider.",
-    },
-    11:{
-      buylink:
-        "https://www.amazon.in/Psychology-Money-Morgan-Housel/dp/9390166268/ref=d_pd_sbs_sccl_3_4/257-3700383-5194419?pd_rd_w=PgfwK&content-id=amzn1.sym.2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_p=2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_r=4KKKY7AVWS5Q93XZVC51&pd_rd_wg=E9QhE&pd_rd_r=dba54ea3-21f9-481e-910d-75a315c4caac&pd_rd_i=9390166268&psc=1",
-      bookcover:
-        "https://m.media-amazon.com/images/I/41r6F2LRf8L._SX323_BO1,204,203,200_.jpg",
-      bookname: "The Psychology of Money",
-      bookdetails:
-        "Timeless lessons on wealth, greed, and happiness doing well with money isn?t necessarily about what you know. It?s about how you behave. And behavior is hard to teach, even to really smart people. How to manage money, invest it, and make business decisions are typically considered to involve a lot of mathematical calculations, where data and formulae tell us exactly what to do. But in the real world, people don?t make financial decisions on a spreadsheet. They make them at the dinner table, or in a meeting room, where personal history, your unique view of the world, ego, pride, marketing, and odd incentives are scrambled together. In the psychology of money, the author shares 19 short stories exploring the strange ways people think about money and teaches you how to make better sense of one of life?s most important matters.",
-      ratings: "4.6 out of 5",
-      author:
-        "Morgan Housel is a partner at The Collaborative Fund. He is a two-time winner of the Best in Business Award from the Society of American Business Editors and Writers, winner of the New York Times Sidney Award, and a two-time finalist for the Gerald Loeb Award for Distinguished Business and Financial Journalism. He lives in Seattle with his wife and two kids.",
-    },
-    12:{
-      buylink:
-        "https://www.amazon.in/dp/9388144317/ref=sspa_dk_detail_3?psc=1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
-      bookcover:
-        "https://m.media-amazon.com/images/I/41jffN02hnS._SX458_BO1,204,203,200_.jpg",
-      bookname: "The Richest Man in Babylon",
-      bookdetails:
-        "If you have a lean purse and are looking for financial wisdom, you?ve picked the perfect book!?A PART OF ALL YOU EARN IS YOURS TO KEEP.?From the importance of savings to the essentials on how to become wealthy, this collection of famous Babylonian parables imparts timeless financial wisdom. It offers insights on how to become wealthy and how to attract good luck and discusses the five laws of gold.A perfect guide to understanding finances and a powerhouse of time-tested principles to gain and retain personal wealth, The Richest Man in Babylon has been inspiring readers for generations. It continues to remain a classic bestseller.",
-      ratings: "4.5 out of 5",
-      author:
-        "George Samuel Clason was born in Louisiana, Missouri, on November 7, 1874. He attended the University of Nebraska and served in the United States Army during the Spanish-American War. Beginning a long career in publishing, he founded the Clason Map Company of Denver, Colorado and published the first road atlas of the United States and Canada. In 1926, he issued the first of a famous series of pamphlets on thrift and financial success, using parables set in ancient Babylon to make each of his points. These were distributed in large quantities by banks and insurance companies and became familiar to millions, the most famous being “The Richest Man in Babylon,” the parable from which the present volume takes its title. These “Babylonian parables” have become a modern inspirational classic.",
-    },
-    13:{
-      buylink:
-        "https://www.amazon.in/Intelligent-Investor-English-Paperback-2013/dp/0062312685/ref=d_pd_sbs_sccl_3_5/257-3700383-5194419?pd_rd_w=we3iM&content-id=amzn1.sym.2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_p=2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_r=3FBR8CK09PT2AG3ZXBDH&pd_rd_wg=k8lwN&pd_rd_r=25a6b66a-e56d-4935-bcf2-5905265bd9d3&pd_rd_i=0062312685&psc=1",
-      bookcover:
-        "https://m.media-amazon.com/images/I/51DLoxAJ68L._SX324_BO1,204,203,200_.jpg",
-      bookname: "The Intelligent Investor",
-      bookdetails:
-        "It is a widely acclaimed book by Benjamin Graham on value investing. Written by one of the greatest investment advisers of twentieth century, the book aims at preventing potential investors from substantial errors and also teaches them strategies to achieve long-term investment goals. Over the years, investment market has been following teachings and strategies of Graham for growth and development. In the book, Graham has explained various principles and strategies for investing safely and successfully without taking bigger risks. Modern-day investors still continue to use his proven and well-executed techniques for value investment. The current edition highlights some of the important concepts that are useful for latest financial orders and plans. Keeping Graham's unique text in original form, the book focuses on major principles that can be applied in day-to-day life. All the concepts and principles are explained with the help of examples for better clarity and understanding of the financial world. Combination of original plan of Graham and the current financial situations are the reason behind this books preference todays investors. It is a detailed version with several wisdom quotes that are likely to change ones investing career and lead to the path of financial safety and security. About the Author: A professional investor and economist, known all over the world, Benjamin Graham is believed to be the father of value investing. He first taught this new investment approach at Columbia Business School. A British-born, he is credited with having pioneered numerous cutting edge concepts that, many believe, pushed several of his followers in the world of investments, to the top.",
-      ratings: "4.5 out of 5",
-      author:
-        "About the Author: Benjamin Graham was born on May 8th, 1894 and died on September 21st, 1976. He was known as the father of Value Investing. Graham was an American and was born in Britain. His love for finance kept burning bright, as he taught at the Columbian Business School. His keen interest in finance is what has made our present day investments fruitful.",
-    }
-    }
-  );
-
-    await setDoc(
-    doc(db, "books", "mind"),
+// Add a new document in collection "income"
+await setDoc(
+  doc(db, "bookData", "income"),
+  {
+    books:[
       {
-        1:{
+        buylink:
+          "https://www.amazon.in/Finance-Non-Finance-People-Second-Sandeep/dp/0367322080/ref=sr_1_1?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-1",
+        bookcover:
+          "https://m.media-amazon.com/images/I/41O4vF1N0lL._SX323_BO1,204,203,200_.jpg",
+        bookname: "Finance for Non-Finance People",
+        bookdetails:
+          "Finance is key to every business organisation as well as outside. This book makes sense of the Finance world from a non-finance perspective. It introduces, explains and demystifies essential ideas of business finance to those who do not have financial background or training. Lucid, accessible, yet comprehensive, the book delineates the financial workings of businesses and offers an overview of corporate finance in the global context. The volume: contains effective tools for financial communication, monitoring, analysis and resource allocation; provides important learning aids such as figures, tables, illustrations and case studies; highlights fundamental concepts and applications of finance; surveys global corporate practices, recent trends and current data. This updated second edition contains new sections on tax planning, including income Tax and Goods and Services Tax in India. A guide to building financial acumen, this book will be a useful resource for executive and management development programmes (edps & maps) oriented towards business managers, including MBA programmes. It will benefit business executives, corporate heads, entrepreneurs, government officials, teachers, researchers, and students of management and business, as well as those who deal with finance or financial matters in their daily lives.",
+        ratings: "3.8 out of 5",
+        author:
+          "Sandeep Goel is Associate Professor of Accounting and Finance at Management Development Institute (MDI) Gurgaon, India. He holds two doctorates, one in Finance; and another in Accounting from the Faculty of Management Studies, University of Delhi. He completed his bachelor's and master's degrees in commerce from Shri Ram College of Commerce, and the Department of Commerce, University of Delhi, respectively. He has over two decades of industry and academic experience across various organisations and institutions, including the Shri Ram Group, the University of Delhi and MDI. He is a management trainer and consultant to top business organisations and has conducted over 200 programmes dealing with financial skills and consultancy assignments on financial management, accounting application and corporate governance.",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Taxmanns-Students-Guide-Income-University/dp/9356223726/ref=sr_1_2?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-2",
+        bookcover:
+          "https://m.media-amazon.com/images/I/41VKtCQixlL._SX378_BO1,204,203,200_.jpg",
+        bookname: "Taxmann's Students' Guide to Income Tax",
+        bookdetails:
+          "Taxmann's flagship publication for Students on Income Tax has been designed to bridge the gap between theory and application. This book is written in simple language, explaining the provision of the law in a step-by-step manner – with the help of suitable illustrations, without resorting to paraphrasing of sections and legal jargons. This book is an authentic, up-to-date & amended textbook on Income Tax for students of B.Com., M.Com., MBA and other Professional Examinations.",
+        ratings: "5 out of 5",
+        author:
+          "Dr. Vinod K. Singhania got his PhD from the Delhi School of Economics in 1976. His field of special interest includes all facets of corporate legislation and corporate economics, especially tax laws.",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Taxmanns-Income-Tax-Act-POCKET/dp/9356220964/ref=sr_1_6?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-6",
+        bookcover:
+          "https://m.media-amazon.com/images/I/51uun37jHTL._SX339_BO1,204,203,200_.jpg",
+        bookname: "Taxmann's Income Tax Act",
+        bookdetails: "",
+        ratings: "3.8 out of 5",
+        author:
+          "Taxmann Publications has a dedicated in-house Research & Editorial Team. This team consists of Chartered Accountants, Company Secretaries, and Lawyers. This team works under the guidance and supervision of Editor-In-Chief Mr Rakesh Bhargava.The Research and Editorial Team is responsible for developing reliable and accurate content for the readers. The team follows the six-sigma approach to achieve the benchmark of zero error in our publications and research platform. The team ensures that the following publication guidelines are thoroughly followed while developing the content:The statutory material is obtained only from the authorized and reliable sourcesKeep the readers abreast with the latest developments in the judicial and legislative fieldsPrepare the analytical write-ups on recent, controversial, and contagious issues to help the readers to understand the event and its implicationsEvery content published by Taxmann should be complete, accurate and lucidAll evidence-based statements must be supported with proper reference to Section, Circular No., Notification No., or citationsThe golden rules of grammar, style and consistency are thoroughly followedChoose a font and size that's easy to read and remain consistent across all imprint and digital publications",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Personal-Finance-Mandatory-Investing-capitalism-ebook/dp/B01LK6ESAK/ref=sr_1_7?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-7",
+        bookcover: "https://m.media-amazon.com/images/I/41r5Z-jXgyL.jpg",
+        bookname: "Personal Finance",
+        bookdetails:
+          "Do you have as much money as you want?It's said that you are the average of the five people you spend the most time with. If those five people are poor or financially uneducated, be on your guard, they might drag you down that rabbit hole as well. All you need to do to become rich is to learn how to play the money game. Getting ahead in the money game is pretty simple, and it's something you can start doing today, no matter how much or how little money you make. Playing the money game to perfection is the difference between living with financial anxiety or having $5,000 sitting in your account and not knowing what to do with it. This book, book 1 in the How To Make More Money Books Series, teaches you how to play the money games like a pro. Are you ready to get rich? You can start today.",
+        ratings: "3.2 out of 5",
+        author: "",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Taxmanns-Practice-Professional-2022-23-2023-24/dp/9356220883/ref=sr_1_9?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-9",
+        bookcover:
+          "https://m.media-amazon.com/images/I/51p63wAXkxL._SX348_BO1,204,203,200_.jpg",
+        bookname: "Taxmann's Direct Taxes Law & Practice",
+        bookdetails: "",
+        ratings: "4.6 out of 5",
+        author:
+          "Dr Vinod K. Singhania got his PhD from the Delhi School of Economics in 1976. His field of special interest includes all facets of corporate legislation and corporate economics, especially tax laws.",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Sterling-Bonds-Fixed-Income-Handbook-ebook/dp/B00BQHOGPG/ref=sr_1_10?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-10",
+        bookcover: "https://m.media-amazon.com/images/I/41XTnHh0RwL.jpg",
+        bookname: "The Sterling Bonds and Fixed Income Handbook",
+        bookdetails:
+          "The Sterling Bonds and Fixed Income Handbook aims to fill the knowledge gap for sterling-base investors and their advisors. Whilst investors in the equity markets can rely on numerous resources to select stocks and build portfolios, there is little information available for those who wish to buy bonds. This book takes the reader through the key features of gilts and sterling corporate bonds and offers a practical guide to putting money to work in this important and profitable asset class.",
+        ratings: "4.1 out of 5",
+        author:
+          "Mark Glowrey is Head of Retail Bond Sales at Canaccord Genuity. Prior to this, he spent over a decade as a director of Stockcube Research Limited, a leading independent analysis company. Mark has over twenty-five years' experience of trading securities and advising institutional customers, starting his career as a dealer on the floor of the London Stock Exchange in the early 1980s before moving on to specialise in fixed income securities and treasury products. In 2005, he launched Fixed Income Investor (www.fixedincomeinvestor.co.uk), a resource for private investors in the sterling fixed income market. Mark has also contributed to many well-known investment websites and publications over the years including the Investors Chronicle.",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Finance-Non-Finance-Managers-B-K-Chatterjee/dp/8172245262/ref=sr_1_11?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-11",
+        bookcover:
+          "https://m.media-amazon.com/images/I/51-JDPTiFIL._SX313_BO1,204,203,200_.jpg",
+        bookname: "Finance For Non-Finance Managers",
+        bookdetails:
+          "Finance for Non-Finance Managers provides information to understand the tools, techniques and nuances of financial management. This abridged version has been prepared on the basis of a careful selection of only such topics as are of immediate relevance to the non-finance personnel. The book contains chapters on basic finance concepts, financial accounting process, credit management etc. with relevant practice exercises and case studies.",
+        ratings: "5 out of 5",
+        author: "",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Taxmanns-Deduction-Source-Advance-Refunds/dp/9356220867/ref=sr_1_15?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665471124&sprefix=%2Caps%2C1423&sr=8-15",
+        bookcover:
+          "https://m.media-amazon.com/images/I/41MEPWMbKQL._SX331_BO1,204,203,200_.jpg",
+        bookname: "Taxmann’s Deduction of Tax at Source",
+        bookdetails:
+          "This book provides legal analysis of the provisions relating to TDS, TCS, Advance Tax and Refunds under the Income-tax Act. It also includes guidance on all practical problems supported by illustrations and legal jurisprudence.",
+        ratings: "4 out of 5",
+        author:
+          "Dr Vinod K. Singhania got his PhD from the Delhi School of Economics in 1976. His field of special interest includes all facets of corporate legislation and corporate economics, especially tax laws.",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Essentials-Finance-Accounting-Nonfinancial-Managers/dp/1404112014/ref=sr_1_19?crid=2A1B9HA56B2CH&keywords=books+for+income+and+finance&qid=1665473824&sprefix=%2Caps%2C1423&sr=8-19",
+        bookcover:
+          "https://m.media-amazon.com/images/I/5131P-MhoLL._SX325_BO1,204,203,200_.jpg",
+        bookname:
+          "The Essentials of Finance and Accounting for Nonfinancial Managers",
+        bookdetails:
+          "Frustrated by financial statements? Dread the budget process? The essentials of finance and accounting for non-financial managers is here to help. This new edition of a business classic demystifies finance and accounting and gives managers the tools they need make better decisions. Packed with fresh insights and the latest information on accounting regulations, international accounting practices and global business trends, the book reveals how to: understand the fundamentals of financial analysis, budgeting and forecasting interpret balance sheets, income/cash Flow statements and Annual reports sift through conflicting data to find the most relevant figures locate key information about competitors and suppliers analyse variances and calculate Break-Even points and other vital measures and much more expanded case studies and practice exercises reinforce the lessons and let you strengthen your skills. Imagine the impact when you grasp not only what the numbers mean-but how you can use that intelligence to drive your business forward.",
+        ratings: "3.6 out of 5",
+        author:
+          "EDWARD FIELDS has taught a popular AMA course on finance and accounting fundamentals for decades and consults with many multinational corporations on strategic and financial issues.",
+      },
+  {
+        buylink:
+          "https://www.amazon.in/Thinking-Fast-Penguin-Press-Non-Fiction/dp/0141033576/ref=sr_1_58?crid=17X2PVVYC434A&keywords=books+for+income+and+finance&qid=1665501161&sprefix=books+for+income+and+finance%2Caps%2C1455&sr=8-58",
+        bookcover:
+          "https://m.media-amazon.com/images/I/41I0fK0G9kL._SX328_BO1,204,203,200_.jpg",
+        bookname: "Thinking, Fast and Slow",
+        bookdetails:
+          "The phenomenal international bestseller - 2 million copies sold - that will change the way you make decisions'A lifetime's worth of wisdom' Steven D. Levitt, co-author of Freakonomics'There have been many good books on human rationality and irrationality, but only one masterpiece. That masterpiece is Thinking, Fast and Slow' Financial TimesWhy is there more chance we'll believe something if it's in a bold type face? Why are judges more likely to deny parole before lunch? Why do we assume a good-looking person will be more competent? The answer lies in the two ways we make choices: fast, intuitive thinking, and slow, rational thinking. This book reveals how our minds are tripped up by error and prejudice (even when we think we are being logical), and gives you practical techniques for slower, smarter thinking. It will enable to you make better decisions at work, at home, and in everything you do.",
+        ratings: "4.5 out of 5",
+        author:
+          "Daniel Kahneman is a Senior Scholar at Princeton University, and Emeritus Professor of Public Affairs, Woodrow Wilson School of Public and International Affairs. He was awarded the Nobel Prize in Economics in 2002.",
+      },
+    {
+        buylink:
+          "https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=pd_bxgy_sccl_1/257-3700383-5194419?pd_rd_w=1nBI0&content-id=amzn1.sym.d68c4347-8b80-4998-9474-4671a1e32e96&pf_rd_p=d68c4347-8b80-4998-9474-4671a1e32e96&pf_rd_r=91C9YW9CH2EPCFHZJ1AG&pd_rd_wg=GqodQ&pd_rd_r=c50f04f2-dc0e-49ef-ace4-4ab8d9dcd3e8&pd_rd_i=1847941834&psc=1",
+        bookcover:
+          "https://m.media-amazon.com/images/I/51-nXsSRfZL._SX328_BO1,204,203,200_.jpg",
+        bookname: "Atomic Habits",
+        bookdetails:
+          "‘A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less. ’ Mark Manson, author of The Subtle Art of Not Giving A F*ck________________________________People say when you want to change your life, you need to set big goals. But they’re wrong. World-renowned habits expert James Clear has discovered a simpler system for transforming your life. He knows that lasting change comes from the compound effect of hundreds of small decisions – doing two push-ups a day, waking up five minutes early, or holding a single short phone call. He calls them atomic habits. In this ground-breaking book, Clear reveals how these tiny changes will help you get 1 percent better every day. He uncovers a handful of simple life hacks (the forgotten art of Habit Stacking, the unexpected power of the Two Minute Rule, or the trick to entering the Goldilocks Zone) and delves into cutting-edge psychology and neuroscience to explain why they matter. Along the way, he tells inspiring stories of Olympic gold medalists, leading CEOs and distinguished scientists who have used the science of small habits to stay productive, motivated and happy. These small changes will have a revolutionary effect on your career, your relationships and your life. ________________________________‘James Clear has spent years honing the art and studying the science of habits. This engaging, hands-on book is the guide you need to break bad routines and make good ones. ’ Adam Grant, author of Originals‘A special book that will change how you approach your day and live your life. ’ Ryan Holiday, author of The Obstacle is the Way",
+        ratings: "4.7 out of 5",
+        author:
+          "James Clear is an expert on habits and decision making. He made his name as the author of one of the fastest-growing email newsletters in history, which grew from zero to 100,000 subscribers in under two years. Today, his newsletter has over 400,000 subscribers and his articles at jamesclear receive 10 million hits each year. His work frequently appears in publications including the New York Times, Forbes and Business Insider.",
+      },
+    {
+        buylink:
+          "https://www.amazon.in/Psychology-Money-Morgan-Housel/dp/9390166268/ref=d_pd_sbs_sccl_3_4/257-3700383-5194419?pd_rd_w=PgfwK&content-id=amzn1.sym.2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_p=2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_r=4KKKY7AVWS5Q93XZVC51&pd_rd_wg=E9QhE&pd_rd_r=dba54ea3-21f9-481e-910d-75a315c4caac&pd_rd_i=9390166268&psc=1",
+        bookcover:
+          "https://m.media-amazon.com/images/I/41r6F2LRf8L._SX323_BO1,204,203,200_.jpg",
+        bookname: "The Psychology of Money",
+        bookdetails:
+          "Timeless lessons on wealth, greed, and happiness doing well with money isn?t necessarily about what you know. It?s about how you behave. And behavior is hard to teach, even to really smart people. How to manage money, invest it, and make business decisions are typically considered to involve a lot of mathematical calculations, where data and formulae tell us exactly what to do. But in the real world, people don?t make financial decisions on a spreadsheet. They make them at the dinner table, or in a meeting room, where personal history, your unique view of the world, ego, pride, marketing, and odd incentives are scrambled together. In the psychology of money, the author shares 19 short stories exploring the strange ways people think about money and teaches you how to make better sense of one of life?s most important matters.",
+        ratings: "4.6 out of 5",
+        author:
+          "Morgan Housel is a partner at The Collaborative Fund. He is a two-time winner of the Best in Business Award from the Society of American Business Editors and Writers, winner of the New York Times Sidney Award, and a two-time finalist for the Gerald Loeb Award for Distinguished Business and Financial Journalism. He lives in Seattle with his wife and two kids.",
+      },
+    {
+        buylink:
+          "https://www.amazon.in/dp/9388144317/ref=sspa_dk_detail_3?psc=1p13NParams&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        bookcover:
+          "https://m.media-amazon.com/images/I/41jffN02hnS._SX458_BO1,204,203,200_.jpg",
+        bookname: "The Richest Man in Babylon",
+        bookdetails:
+          "If you have a lean purse and are looking for financial wisdom, you?ve picked the perfect book!?A PART OF ALL YOU EARN IS YOURS TO KEEP.?From the importance of savings to the essentials on how to become wealthy, this collection of famous Babylonian parables imparts timeless financial wisdom. It offers insights on how to become wealthy and how to attract good luck and discusses the five laws of gold.A perfect guide to understanding finances and a powerhouse of time-tested principles to gain and retain personal wealth, The Richest Man in Babylon has been inspiring readers for generations. It continues to remain a classic bestseller.",
+        ratings: "4.5 out of 5",
+        author:
+          "George Samuel Clason was born in Louisiana, Missouri, on November 7, 1874. He attended the University of Nebraska and served in the United States Army during the Spanish-American War. Beginning a long career in publishing, he founded the Clason Map Company of Denver, Colorado and published the first road atlas of the United States and Canada. In 1926, he issued the first of a famous series of pamphlets on thrift and financial success, using parables set in ancient Babylon to make each of his points. These were distributed in large quantities by banks and insurance companies and became familiar to millions, the most famous being “The Richest Man in Babylon,” the parable from which the present volume takes its title. These “Babylonian parables” have become a modern inspirational classic.",
+      },
+    {
+        buylink:
+          "https://www.amazon.in/Intelligent-Investor-English-Paperback-2013/dp/0062312685/ref=d_pd_sbs_sccl_3_5/257-3700383-5194419?pd_rd_w=we3iM&content-id=amzn1.sym.2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_p=2db7fcb9-4c68-4d7a-84ce-450f877f4572&pf_rd_r=3FBR8CK09PT2AG3ZXBDH&pd_rd_wg=k8lwN&pd_rd_r=25a6b66a-e56d-4935-bcf2-5905265bd9d3&pd_rd_i=0062312685&psc=1",
+        bookcover:
+          "https://m.media-amazon.com/images/I/51DLoxAJ68L._SX324_BO1,204,203,200_.jpg",
+        bookname: "The Intelligent Investor",
+        bookdetails:
+          "It is a widely acclaimed book by Benjamin Graham on value investing. Written by one of the greatest investment advisers of twentieth century, the book aims at preventing potential investors from substantial errors and also teaches them strategies to achieve long-term investment goals. Over the years, investment market has been following teachings and strategies of Graham for growth and development. In the book, Graham has explained various principles and strategies for investing safely and successfully without taking bigger risks. Modern-day investors still continue to use his proven and well-executed techniques for value investment. The current edition highlights some of the important concepts that are useful for latest financial orders and plans. Keeping Graham's unique text in original form, the book focuses on major principles that can be applied in day-to-day life. All the concepts and principles are explained with the help of examples for better clarity and understanding of the financial world. Combination of original plan of Graham and the current financial situations are the reason behind this books preference todays investors. It is a detailed version with several wisdom quotes that are likely to change ones investing career and lead to the path of financial safety and security. About the Author: A professional investor and economist, known all over the world, Benjamin Graham is believed to be the father of value investing. He first taught this new investment approach at Columbia Business School. A British-born, he is credited with having pioneered numerous cutting edge concepts that, many believe, pushed several of his followers in the world of investments, to the top.",
+        ratings: "4.5 out of 5",
+        author:
+          "About the Author: Benjamin Graham was born on May 8th, 1894 and died on September 21st, 1976. He was known as the father of Value Investing. Graham was an American and was born in Britain. His love for finance kept burning bright, as he taught at the Columbian Business School. His keen interest in finance is what has made our present day investments fruitful.",
+      }
+    ]
+  }
+);
+
+  await setDoc(
+  doc(db, "bookData", "mind"),
+    {
+      books:[
+        {
           "buylink": "https://www.amazon.in/Power-Your-Subconscious-DELUXE-HARDBOUND/dp/9389717345/ref=sr_1_1_sspa?keywords=books+for+mind&qid=1665502759&qu=eyJxc2MiOiIzLjY5IiwicXNhIjoiMy40MSIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUElSWlFEWDg3VDRZJmVuY3J5cHRlZElkPUEwMTYyMTM4MTNSUkE0N0lZNk5RUSZlbmNyeXB0ZWRBZElkPUEwNzY0MzM4M1FSR1NISllBMDhXJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
           "bookcover": "https://m.media-amazon.com/images/I/51sXL9AWPXS._SX460_BO1,204,203,200_.jpg",
           "bookname": "The Power of Your Subconscious Mind",
@@ -179,7 +182,7 @@
           "ratings": "4.5 out of 5",
           "author": "Dr. Joseph Murphy was a Divine Science minister and author. Murphy was born in Ireland, the son of a private boy’s school headmaster and raised a Roman Catholic. He studied for the priesthood and joined the Jesuits. In his twenties, an experience with healing prayer led him to leave the Jesuits and move to the United States. Murphy has given lectures and written books for audiences all over the world. In his lectures he points out how real people can radically improve their lives by applying specific aspects of his concepts."
         },
-        2:{
+      {
           "buylink": "https://www.amazon.in/How-Stop-Worrying-Start-Living/dp/8175993952/ref=sr_1_2_sspa?keywords=books+for+mind&qid=1665502759&qu=eyJxc2MiOiIzLjY5IiwicXNhIjoiMy40MSIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&smid=A1WYWER0W24N8S&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUElSWlFEWDg3VDRZJmVuY3J5cHRlZElkPUEwMTYyMTM4MTNSUkE0N0lZNk5RUSZlbmNyeXB0ZWRBZElkPUEwNzQxNDkwM0w1MTZIOEo2Mk9BOCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
           "bookcover": "https://m.media-amazon.com/images/I/51ytROYQLGS._SX460_BO1,204,203,200_.jpg",
           "bookname": "How to Stop Worrying and Start Living",
@@ -187,7 +190,7 @@
           "ratings": "4.4 out of 5",
           "author": "An American writer, lecturer and the developer of famous courses in self-improvement, salesmanship, corporate training, public speaking and interpersonal skills, Dale Carnegie was born in 1888 in Maryville, Missouri."
         },
-        3:{
+      {
           "buylink": "https://www.amazon.in/Miracles-Your-Mind-Joseph-Murphy/dp/9386450720/ref=sr_1_4?keywords=books+for+mind&qid=1665502759&qu=eyJxc2MiOiIzLjY5IiwicXNhIjoiMy40MSIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sr=1-4",
           "bookcover": "https://m.media-amazon.com/images/I/51Iyn6mQEwL._SX320_BO1,204,203,200_.jpg",
           "bookname": "The Miracles Of Your Mind",
@@ -195,7 +198,7 @@
           "ratings": "4.4 out of 5",
           "author": "Joseph Murphy is an Irish born, American writer and Minister. He is the writer of many famous books, like Peace within Yourself, Pray Your Way Through it, Within You is the Power and many more. Born in 1898, he studied to be a priest and later moved to the USA to become a pharmacist. He was ordained as the New Thought Minister for Religious Science and Divine Science. Joseph Murphy died in 1981."
         },
-        4:{
+      {
           "buylink": "https://www.amazon.in/Code-Extraordinary-Mind-Unconventional-Redefine/dp/0593233638/ref=sr_1_5?keywords=books+for+mind&qid=1665502759&qu=eyJxc2MiOiIzLjY5IiwicXNhIjoiMy40MSIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sr=1-5",
           "bookcover": "https://m.media-amazon.com/images/I/41g7s2jeUeL._SX327_BO1,204,203,200_.jpg",
           "bookname": "The Code of the Extraordinary Mind",
@@ -203,7 +206,7 @@
           "ratings": "4.6 out of 5",
           "author": "VISHEN LAKHIANI is the founder & CEO of Mindvalley, the company with big plans to reboot education globally to focus on transformation. Mindvalley combines media, filmmaking, tech and real-world events to build its education empire with over 2 million students. Vishen is the author of the New York Times bestseller, The Code of the Extraordinary Mind, which has been translated in 20 languages. Vishen is now working to expand Mindvalley’s presence globally with the aim to bring it’s teachers, tech and programs into 100 national schooling systems and every company in the Fortune 500 within the next few years."
         },
-        5:{
+      {
           "buylink": "https://www.amazon.in/Avchetan-Shakti-Power-Subconscious-Hindi/dp/8175993669/ref=sr_1_8?keywords=books+for+mind&qid=1665502759&qu=eyJxc2MiOiIzLjY5IiwicXNhIjoiMy40MSIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sr=1-8",
           "bookcover": "https://m.media-amazon.com/images/I/41T3c-PrQnS._SX460_BO1,204,203,200_.jpg",
           "bookname": "Apke Avchetan Man Ki Shakti",
@@ -211,7 +214,7 @@
           "ratings": "4.4 out of 5",
           "author": "Joseph Murphy was a Divine Science minister and author."
         },
-        6:{
+      {
           "buylink": "https://www.amazon.in/Science-Mind-Management-Swami-Mukundananda/dp/9389648440/ref=sr_1_9?keywords=books+for+mind&qid=1665502759&qu=eyJxc2MiOiIzLjY5IiwicXNhIjoiMy40MSIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sr=1-9",
           "bookcover": "https://m.media-amazon.com/images/I/41n4124a9AL._SX322_BO1,204,203,200_.jpg",
           "bookname": "The Science of Mind Management",
@@ -219,7 +222,7 @@
           "ratings": "4.7 out of 5",
           "author": "Swami Mukundananda is a world-renowned spiritual teacher from India with an educational background from IIT and IIM. Having learned the Vedic scriptures under the tutelage of Jagadguru Shree Kripalu-ji Maharaj, he now spends his time explaining the path of true, ever-lasting happiness to people everywhere. In between his hectic schedule, he writes books and commentaries, records CDs and DVDs, and guides a worldwide congregation of devotees. Swamiji’s lectures are humorous, his arguments are logical and well laid-out, and most of all, his advice is practical. His lectures are much sought after and include various topics such as conquest of the mind, good health through yoga, meditation, and spirituality, and karm yog for everyday living."
         },
-        7:{
+      {
           "buylink": "https://www.amazon.in/I-am-Mind-Deep-Trivedi/dp/9384850098/ref=sr_1_10?keywords=books+for+mind&qid=1665502759&qu=eyJxc2MiOiIzLjY5IiwicXNhIjoiMy40MSIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sr=1-10",
           "bookcover": "https://m.media-amazon.com/images/I/41qNX9byr5L._SX358_BO1,204,203,200_.jpg",
           "bookname": "I am The Mind",
@@ -227,7 +230,7 @@
           "ratings": "4.4 out of 5",
           "author": "Mr. Deep Trivedi is a pioneer in spiritual psychodynamics, an eminent and prolific author and also a speaker. He speaks on numerous topics related to human life such as joy, success, confidence, functions of the mind, functions of the DNA and genes, fear, ego, hypocrisy, complexes, laws of nature, etc. in a unique series titled DeepTalks. His command over the understanding of human life can be gauged by the fact that he has created a national record for delivering the Most Lectures on Human Life , as per India Book of Records. His marathon series on Bhagavad Gita has also been recognised as a new national record by India Book of Records for Most Lectures on Bhagavad Gita , which is 168 hrs, 28 mins, 50 secs in 58 days. These lectures have been delivered in front of a live audience across India. The series of these lectures is currently being telecast on EPIC channel every Sunday morning between 10 am 11 am and the repeat telecast is aired every Saturday 11 pm to 12 midnight. The DVDs and audio CDs of these lectures are already in great demand all over India and are available at all leading e-commerce sites. Deep Trivedi also has a large following on Facebook and Twitter, and his videos have garnered a large number of viewers on YouTube."
         },
-        8:{
+      {
           "buylink": "https://www.amazon.in/Silva-Mind-Control-Method/dp/0671739891/ref=sr_1_6?crid=15NEGGWB93TV5&keywords=mind+books&qid=1665505491&qu=eyJxc2MiOiI1LjMxIiwicXNhIjoiNC44NCIsInFzcCI6IjMuNjQifQ%3D%3D&sprefix=mind+books%2Caps%2C497&sr=8-6",
           "bookcover": "https://m.media-amazon.com/images/I/51XwZbMoB6L._SX299_BO1,204,203,200_.jpg",
           "bookname": "The Silva Mind Control Method",
@@ -235,7 +238,7 @@
           "ratings": "4.5 out of 5",
           "author": "Jose Silva's life is more than a great American success story. It has transcended time and space to become one of the world's all time great success stories."
         },
-        9:{
+      {
           "buylink": "https://www.amazon.in/Mind-Matter-Astonishing-Science-Material/dp/9386832720/ref=sr_1_10?crid=15NEGGWB93TV5&keywords=mind+books&qid=1665505491&qu=eyJxc2MiOiI1LjMxIiwicXNhIjoiNC44NCIsInFzcCI6IjMuNjQifQ%3D%3D&sprefix=mind+books%2Caps%2C497&sr=8-10",
           "bookcover": "https://m.media-amazon.com/images/I/51Q8bznb6+L._SX332_BO1,204,203,200_.jpg",
           "bookname": "Mind to Matter",
@@ -243,7 +246,7 @@
           "ratings": "4.6 out of 5",
           "author": "Dawson Church, Ph.D., is an award-winning author whose best-selling book, the Genie in Your Genes has been hailed by reviewers as a breakthrough in our understanding of the link between emotion and genetics. He founded the National Institute for Integrative Healthcare to study and implement promising evidence-based psychological and medical techniques. His groundbreaking research has been published in prestigious scientific journals. He is the editor of Energy Psychology: Theory, Research and Treatment, a peer-reviewed professional journal and a blogger for the Huffington Post. He shares how to apply the breakthroughs of energy psychology to health and athletic performance through EFT Universe one of the largest alternative medicine sites on the web."
         },
-        10:{
+        {
           "buylink": "https://www.amazon.in/Everyday-Hero-Manifesto-Robin-Sharma/dp/9391019749/ref=sr_1_12_sspa?crid=15NEGGWB93TV5&keywords=mind+books&qid=1665505491&qu=eyJxc2MiOiI1LjMxIiwicXNhIjoiNC44NCIsInFzcCI6IjMuNjQifQ%3D%3D&sprefix=mind+books%2Caps%2C497&sr=8-12-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVDNYUE9OWDRBNlpNJmVuY3J5cHRlZElkPUEwMDE4NDE4OU1CQlFLOUIwVUlRJmVuY3J5cHRlZEFkSWQ9QTAyNzc5ODQyV0VGVFI3S1ZRT1dBJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
           "bookcover": "https://m.media-amazon.com/images/I/41txBobui9S._SX332_BO1,204,203,200_.jpg",
           "bookname": "The Everyday Hero Manifesto",
@@ -251,7 +254,7 @@
           "ratings": "4.5 out of 5",
           "author": "ROBIN SHARMA is a humanitarian who has devoted his life to helping people express their highest natural gifts. He is widely regarded as one of the top leadership and personal-mastery experts in the world. His clients include NASA, Microsoft, NIKE, Unilever, GE, FedEx, HP, Starbucks, Oracle, Yale University, PwC, IBM Watson and the Young Presidents’ Organization. His #1 international bestsellers, such as The 5 AM Club, The Monk Who Sold His Ferrari, The Greatness Guide and Who Will Cry When You Die?, have sold millions of copies in over ninety-two languages, making him one of the most widely read authors on the planet."
         },
-        11:{
+        {
           "buylink": "https://www.amazon.in/Learning-Silence-Mind-Osho/dp/1250006228/ref=sr_1_14?crid=15NEGGWB93TV5&keywords=mind+books&qid=1665505491&qu=eyJxc2MiOiI1LjMxIiwicXNhIjoiNC44NCIsInFzcCI6IjMuNjQifQ%3D%3D&sprefix=mind+books%2Caps%2C497&sr=8-14",
           "bookcover": "https://m.media-amazon.com/images/I/31i2Qh9ntoL._SX329_BO1,204,203,200_.jpg",
           "bookname": "Learning to Silence the Mind",
@@ -259,7 +262,7 @@
           "ratings": "4.5 out of 5",
           "author": "Osho is one of the most provocative and inspiring spiritual teachers of the twentieth century. Known for his revolutionary contribution to the science of inner transformation, the influence of his teachings continues to grow, reaching seekers of all ages in virtually every country of the world. He is the author of many books, including Love, Freedom, Aloneness; The Book of Secrets; and Innocence, Knowledge, and Wonder."
         },
-        12:{
+        {
           "buylink": "https://www.amazon.in/Ignited-Minds-Unleashing-power-within/dp/0143424122/ref=sr_1_15?crid=15NEGGWB93TV5&keywords=mind+books&qid=1665505491&qu=eyJxc2MiOiI1LjMxIiwicXNhIjoiNC44NCIsInFzcCI6IjMuNjQifQ%3D%3D&sprefix=mind+books%2Caps%2C497&sr=8-15",
           "bookcover": "https://m.media-amazon.com/images/I/41uV5nrOfsL._SX322_BO1,204,203,200_.jpg",
           "bookname": "Ignited Minds",
@@ -267,7 +270,7 @@
           "ratings": "4.6 out of 5",
           "author": "A.P.J. Abdul Kalam is one of India's most distinguished scientists, responsible for the development of India's first satellite launch vehicle and the operationalization of strategic missiles. He also pioneered India Vision 2020, a road map for transforming India. The President of India between 2002 and 2007, Dr Kalam has been awarded honorary doctorates from thirty-eight universities and the country's three highest civilian honours—the Padma Bhushan (1981), Padma Vibhushan (1990) and Bharat Ratna (1997). A prolific and bestselling author, he now conducts lectures on societal development in many international institutes and is involved in research on different societal missions."
         },
-        13:{
+        {
           "buylink": "https://www.amazon.in/Mind-Full-Mindful-Wisdom-Monks/dp/9352777638/ref=sr_1_19?crid=15NEGGWB93TV5&keywords=mind+books&qid=1665505491&qu=eyJxc2MiOiI1LjMxIiwicXNhIjoiNC44NCIsInFzcCI6IjMuNjQifQ%3D%3D&sprefix=mind+books%2Caps%2C497&sr=8-19",
           "bookcover": "https://m.media-amazon.com/images/I/41FsTq8HFpL._SX326_BO1,204,203,200_.jpg",
           "bookname": "Mind Full to Mindful",
@@ -275,7 +278,7 @@
           "ratings": "4.7 out of 5",
           "author": "Om Swami is a mystic who lives in the Himalayan foothills. Prior to renunciation, he founded and ran a multimillion-dollar software company with offices across the world. He is also the author of the bestselling books If Truth be Told: A Monk's Memoir (HarperCollins, 2014), The Wellness Sense: A Practical Guide to Your Physical and Emotional Health Based on Ayurvedic and Yogic Wisdom (HarperCollins, 2015), When All Is Not Well: Depression, Sadness and Healing -- A Yogic Perspective (HarperCollins, 2016), The Last Gambit (HarperCollins, 2017), Mind Full to Mindful: Zen Wisdom from a Monk's Bowl (HarperCollins, 2018), The Children of Tomorrow: A Monk's Guide to Mindful Parenting (HarperCollins, 2019), and The Book of Kindness: How to Make Others Happy and Be Happy Yourself (HarperCollins, 2019)."
         },
-        14:{
+        {
   "buylink": "https://www.amazon.in/Mind-Master-Winning-Lessons-Champions/dp/9351951502/ref=sr_1_20?crid=15NEGGWB93TV5&keywords=mind+books&qid=1665505491&qu=eyJxc2MiOiI1LjMxIiwicXNhIjoiNC44NCIsInFzcCI6IjMuNjQifQ%3D%3D&sprefix=mind+books%2Caps%2C497&sr=8-20",
   "bookcover": "https://m.media-amazon.com/images/I/41K2oxAENnL._SX310_BO1,204,203,200_.jpg",
   "bookname": "MIND MASTER",
@@ -283,131 +286,135 @@
   "ratings": "4.6 out of 5",
   "author": "Viswanathan Anand, known fondly as Vishy, is one of the best-known names in chess today, having been crowned Classical Chess World Champion five times and won innumerable tournaments in all formats of the game and broken records along the way. Vishy is an astronomy buff, and an avid reader on math, economics and current affairs. He loves to travel, particularly on wildlife safaris. He supports many charitable causes, chief among them being that of children with cerebral palsy and other neurological disabilities."
 }
-      }
-    );
-
-    await setDoc(
-    doc(db, "books", "growth"),
-    {
-      1:{
-        "buylink": "https://www.amazon.in/Growth-Mindset-Guide-Professional-Personal-ebook/dp/B0711N6GX6/ref=sr_1_3?crid=3B1EIEL8NUY3T&keywords=growth+books&qid=1665414068&qu=eyJxc2MiOiIzLjEwIiwicXNhIjoiMS42MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=growth+books%2Caps%2C333&sr=8-3",
-        "bookcover": "https://m.media-amazon.com/images/I/51djjDoWW1L.jpg",
-        "bookname": "The Growth Mindset: a Guide to Professional and Personal Growth: Set Your Personal and Professional Growth Goals! (The Art of Growth Book 1)",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      2:{
-        "buylink": "https://www.amazon.in/How-Stop-Worrying-Start-Living/dp/8175993952/ref=sr_1_1_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&smid=A1WYWER0W24N8S&sprefix=books+for+growth%2Caps%2C494&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBSkNEWDZESFNGTk4mZW5jcnlwdGVkSWQ9QTA4MzgyMTMzSjEzUTlMM1IyOEhHJmVuY3J5cHRlZEFkSWQ9QTA3NDE0OTAzTDUxNkg4SjYyT0E4JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
-        "bookcover": "https://m.media-amazon.com/images/I/51ytROYQLGS._SX460_BO1,204,203,200_.jpg",
-        "bookname": "How to Stop Worrying and Start Living: Time-Tested Methods for Conquering Worry",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      3:{
-        "buylink": "https://www.amazon.in/Lifes-Amazing-Secrets-Balance-Purpose/dp/0143442295/ref=sr_1_4?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-4",
-        "bookcover": "https://m.media-amazon.com/images/I/51PJyvcfPGL._SX321_BO1,204,203,200_.jpg",
-        "bookname": "Life's Amazing Secrets",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      4:{
-        "buylink": "https://www.amazon.in/Atomic-Habits-Proven-Build-Break-ebook/dp/B01N5AX61W/ref=sr_1_10?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-10",
-        "bookcover": "https://m.media-amazon.com/images/I/51-nXsSRfZL.jpg",
-        "bookname": "Atomic Habits: the life-changing million-copy #1 bestseller Kindle Edition",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      5:{
-        "buylink": "https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_11_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-11-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBSkNEWDZESFNGTk4mZW5jcnlwdGVkSWQ9QTA4MzgyMTMzSjEzUTlMM1IyOEhHJmVuY3J5cHRlZEFkSWQ9QTAzMDc5NjkyT1lZM1pDMTNCWE5YJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
-        "bookcover": "https://m.media-amazon.com/images/I/416Z99JF6AS._SX460_BO1,204,203,200_.jpg",
-        "bookname": "The Power of A Positive Attitude: Your Road To Success",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      6:{
-        "buylink": "https://www.amazon.in/15-Invaluable-Laws-Growth/dp/9350098709/ref=sr_1_17?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-17",
-        "bookcover": "https://m.media-amazon.com/images/I/51-veV1DP5L._SX327_BO1,204,203,200_.jpg",
-        "bookname": "THE 15 INVALUABLE LAWS OF GROWTH",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      7:{
-        "buylink": "https://www.amazon.in/You-Can-George-Matthew-Adams/dp/9389931843/ref=sr_1_18?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-18",
-        "bookcover": "https://m.media-amazon.com/images/I/4180omRGrSL._SX460_BO1,204,203,200_.jpg",
-        "bookname": "You Can",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      8:{
-        "buylink": "https://www.amazon.in/Everyday-Hero-Manifesto-Robin-Sharma/dp/9391019749/ref=sr_1_21_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-21-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBSkNEWDZESFNGTk4mZW5jcnlwdGVkSWQ9QTA4MzgyMTMzSjEzUTlMM1IyOEhHJmVuY3J5cHRlZEFkSWQ9QTAyNzc5ODQyV0VGVFI3S1ZRT1dBJndpZGdldE5hbWU9c3BfYnRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
-        "bookcover": "https://m.media-amazon.com/images/I/41txBobui9S._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
-        "bookname": "The Everyday Hero Manifesto",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      9:{
-        "buylink": "https://www.amazon.in/Hacking-Growth-Morgan-Brown/dp/0753545373/ref=sr_1_20?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-20",
-        "bookcover": "https://m.media-amazon.com/images/I/41qAJboYR+L._SX326_BO1,204,203,200_.jpg",
-        "bookname": "Hacking Growth: How Today's Fastest-Growing Companies Drive Breakout Success",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      10:{
-        "buylink": "https://www.amazon.in/Power-Your-Subconscious-Mind/dp/8194790832/ref=sr_1_21?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-21",
-        "bookcover": "https://m.media-amazon.com/images/I/51QnuLIY2uL._SX322_BO1,204,203,200_.jpg",
-        "bookname": "The Power of Your Subconscious Mind",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      11:{
-        "buylink": "https://www.amazon.in/Karma-PUBLISHERS-BESTSELLER-spirituality-self-improvement/dp/0143452673/ref=sr_1_25?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-25",
-        "bookcover": "https://m.media-amazon.com/images/I/51ewXeUdkvL._SX312_BO1,204,203,200_.jpg",
-        "bookname": "Karma: A Yogi's Guide to Crafting Your Destiny | Spirituality, Self-improvement & Self help books by Sadhguru | Penguin",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      12:{
-        "buylink": "https://www.amazon.in/Things-Do-When-You-Turn/dp/B09QQNPGMT/ref=sr_1_26?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-26",
-        "bookcover": "https://m.media-amazon.com/images/I/41D7cx3tY9L._SX311_BO1,204,203,200_.jpg",
-        "bookname": "8 Things to Do When You Turn 20: Lessons from My Life So Far",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      13:{
-        "buylink": "https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_27_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-27-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRTRSNEM4NDlNQ09HJmVuY3J5cHRlZElkPUEwNTczMjYyM1FLSk45RjIyQVhWWSZlbmNyeXB0ZWRBZElkPUEwMzA3OTY5Mk9ZWTNaQzEzQlhOWCZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
-        "bookcover": "https://m.media-amazon.com/images/I/416Z99JF6AS._SX460_BO1,204,203,200_.jpg",
-        "bookname": "The Power of A Positive Attitude: Your Road To Success",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      },
-      14:{
-        "buylink": "https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549/ref=sr_1_30?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-30",
-        "bookcover": "https://m.media-amazon.com/images/I/516pmXNNmCL._SX324_BO1,204,203,200_.jpg",
-        "bookname": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
-        "bookdetails": "",
-        "ratings": "",
-        "author": ""
-      }
+      ]
     }
-    );
+  );
 
-    await setDoc(
-      doc(db,"books","fitness"),
-        {
-          1:{
+  await setDoc(
+  doc(db, "bookData", "growth"),
+  {
+    books:[
+   {
+    "buylink": "https://www.amazon.in/Growth-Mindset-Guide-Professional-Personal-ebook/dp/B0711N6GX6/ref=sr_1_3?crid=3B1EIEL8NUY3T&keywords=growth+books&qid=1665414068&qu=eyJxc2MiOiIzLjEwIiwicXNhIjoiMS42MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=growth+books%2Caps%2C333&sr=8-3",
+    "bookcover": "https://m.media-amazon.com/images/I/51djjDoWW1L.jpg",
+    "bookname": "The Growth Mindset: a Guide to Professional and Personal Growth: Set Your Personal and Professional Growth Goals! (The Art of Growth Book 1)",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/How-Stop-Worrying-Start-Living/dp/8175993952/ref=sr_1_1_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&smid=A1WYWER0W24N8S&sprefix=books+for+growth%2Caps%2C494&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBSkNEWDZESFNGTk4mZW5jcnlwdGVkSWQ9QTA4MzgyMTMzSjEzUTlMM1IyOEhHJmVuY3J5cHRlZEFkSWQ9QTA3NDE0OTAzTDUxNkg4SjYyT0E4JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "bookcover": "https://m.media-amazon.com/images/I/51ytROYQLGS._SX460_BO1,204,203,200_.jpg",
+    "bookname": "How to Stop Worrying and Start Living: Time-Tested Methods for Conquering Worry",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/Lifes-Amazing-Secrets-Balance-Purpose/dp/0143442295/ref=sr_1_4?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-4",
+    "bookcover": "https://m.media-amazon.com/images/I/51PJyvcfPGL._SX321_BO1,204,203,200_.jpg",
+    "bookname": "Life's Amazing Secrets",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/Atomic-Habits-Proven-Build-Break-ebook/dp/B01N5AX61W/ref=sr_1_10?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-10",
+    "bookcover": "https://m.media-amazon.com/images/I/51-nXsSRfZL.jpg",
+    "bookname": "Atomic Habits: the life-changing million-copy #1 bestseller Kindle Edition",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_11_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-11-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBSkNEWDZESFNGTk4mZW5jcnlwdGVkSWQ9QTA4MzgyMTMzSjEzUTlMM1IyOEhHJmVuY3J5cHRlZEFkSWQ9QTAzMDc5NjkyT1lZM1pDMTNCWE5YJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "bookcover": "https://m.media-amazon.com/images/I/416Z99JF6AS._SX460_BO1,204,203,200_.jpg",
+    "bookname": "The Power of A Positive Attitude: Your Road To Success",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/15-Invaluable-Laws-Growth/dp/9350098709/ref=sr_1_17?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-17",
+    "bookcover": "https://m.media-amazon.com/images/I/51-veV1DP5L._SX327_BO1,204,203,200_.jpg",
+    "bookname": "THE 15 INVALUABLE LAWS OF GROWTH",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/You-Can-George-Matthew-Adams/dp/9389931843/ref=sr_1_18?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-18",
+    "bookcover": "https://m.media-amazon.com/images/I/4180omRGrSL._SX460_BO1,204,203,200_.jpg",
+    "bookname": "You Can",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/Everyday-Hero-Manifesto-Robin-Sharma/dp/9391019749/ref=sr_1_21_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665415404&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-21-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFBSkNEWDZESFNGTk4mZW5jcnlwdGVkSWQ9QTA4MzgyMTMzSjEzUTlMM1IyOEhHJmVuY3J5cHRlZEFkSWQ9QTAyNzc5ODQyV0VGVFI3S1ZRT1dBJndpZGdldE5hbWU9c3BfYnRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+    "bookcover": "https://m.media-amazon.com/images/I/41txBobui9S._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "bookname": "The Everyday Hero Manifesto",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+ {
+    "buylink": "https://www.amazon.in/Hacking-Growth-Morgan-Brown/dp/0753545373/ref=sr_1_20?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-20",
+    "bookcover": "https://m.media-amazon.com/images/I/41qAJboYR+L._SX326_BO1,204,203,200_.jpg",
+    "bookname": "Hacking Growth: How Today's Fastest-Growing Companies Drive Breakout Success",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+  {
+    "buylink": "https://www.amazon.in/Power-Your-Subconscious-Mind/dp/8194790832/ref=sr_1_21?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-21",
+    "bookcover": "https://m.media-amazon.com/images/I/51QnuLIY2uL._SX322_BO1,204,203,200_.jpg",
+    "bookname": "The Power of Your Subconscious Mind",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+  {
+    "buylink": "https://www.amazon.in/Karma-PUBLISHERS-BESTSELLER-spirituality-self-improvement/dp/0143452673/ref=sr_1_25?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-25",
+    "bookcover": "https://m.media-amazon.com/images/I/51ewXeUdkvL._SX312_BO1,204,203,200_.jpg",
+    "bookname": "Karma: A Yogi's Guide to Crafting Your Destiny | Spirituality, Self-improvement & Self help books by Sadhguru | Penguin",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+  {
+    "buylink": "https://www.amazon.in/Things-Do-When-You-Turn/dp/B09QQNPGMT/ref=sr_1_26?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-26",
+    "bookcover": "https://m.media-amazon.com/images/I/41D7cx3tY9L._SX311_BO1,204,203,200_.jpg",
+    "bookname": "8 Things to Do When You Turn 20: Lessons from My Life So Far",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+  {
+    "buylink": "https://www.amazon.in/Power-Positive-Attitude-Your-Success/dp/9389432642/ref=sr_1_27_sspa?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-27-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzRTRSNEM4NDlNQ09HJmVuY3J5cHRlZElkPUEwNTczMjYyM1FLSk45RjIyQVhWWSZlbmNyeXB0ZWRBZElkPUEwMzA3OTY5Mk9ZWTNaQzEzQlhOWCZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+    "bookcover": "https://m.media-amazon.com/images/I/416Z99JF6AS._SX460_BO1,204,203,200_.jpg",
+    "bookname": "The Power of A Positive Attitude: Your Road To Success",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  },
+  {
+    "buylink": "https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549/ref=sr_1_30?crid=3V5SV719H2UPB&keywords=books+for+growth&qid=1665416675&qu=eyJxc2MiOiIzLjA2IiwicXNhIjoiMi4yOSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+growth%2Caps%2C494&sr=8-30",
+    "bookcover": "https://m.media-amazon.com/images/I/516pmXNNmCL._SX324_BO1,204,203,200_.jpg",
+    "bookname": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+    "bookdetails": "",
+    "ratings": "",
+    "author": ""
+  }
+    ]
+  }
+  );
+
+  await setDoc(
+    doc(db,"bookData","fitness"),
+      {
+        books:[
+          {
             "buylink": "https://www.amazon.in/Yuktahaar-Belly-Brain-Munmun-Ganeriwal/dp/0143454382/ref=sr_1_1_sspa?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUTlNXR0xPWTdKREQmZW5jcnlwdGVkSWQ9QTA5Mzc1OTUyTkRIWEIwWUE5OVNTJmVuY3J5cHRlZEFkSWQ9QTA4ODQ0MTIxUTNVVUw4SEJQQjQmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl",
             "bookcover": "https://m.media-amazon.com/images/I/41+SXhBXMNL._SX321_BO1,204,203,200_.jpg",
             "bookname": "Yuktahaar: The Belly and Brain Diet",
@@ -415,7 +422,7 @@
             "ratings": "4.4 out of 5",
             "author": "Winner of the 'Award for the Best Nutritionist' by Femina, Munmun Ganeriwal, is a renowned and celebrated Lifestyle consultant in the field of Functional Medicine. She is the only gut microbiome specialist in the world who combines traditional Indian foods, ancient Indian yogic practices and gut microbiota study to understand and fight obesity and other diseases. Her clientele includes Taapsee Pannu, Rakul Preet Singh, Nayanthara, Ekta Kapoor and many more."
           },
-          2:{
+        {
             "buylink": "https://www.amazon.in/12-Week-Fitness-Project-Rujuta-Diwekar/dp/9353450888/ref=sr_1_3?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-3",
             "bookcover": "https://m.media-amazon.com/images/I/41j4eJBSI1L._SX322_BO1,204,203,200_.jpg",
             "bookname": "The 12-Week Fitness Project",
@@ -423,7 +430,7 @@
             "ratings": "4.4 out of 5",
             "author": "Rujuta Diwekar is one of India’s top nutritionists and the author of bestselling books such as Don’t Lose Your Mind, Lose Your Weight and Indian Superfoods."
           },
-          3:{
+        {
             "buylink": "https://www.amazon.in/New-Encyclopedia-Modern-Bodybuilding-Updated/dp/0684857219/ref=sr_1_5?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-5",
             "bookcover": "https://m.media-amazon.com/images/I/51W9o9b28+L._SX383_BO1,204,203,200_.jpg",
             "bookname": "The New Encyclopedia of Modern Bodybuilding",
@@ -431,7 +438,7 @@
             "ratings": "4.6 out of 5",
             "author": "A famous Hollywood actor starring in movies like The Terminator Series, The Predator and Junior among others, Arnold Schwarzenegger is a man of many talents. He is also a bestselling author who came out with his first book in 1977. He had also served as the Governor of California from 2003 to 2011."
           },
-          4:{
+        {
             "buylink": "https://www.amazon.in/FITNESS-HABITS-Breaking-Barriers-Fitness/dp/939044120X/ref=sr_1_9?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-9",
             "bookcover": "https://m.media-amazon.com/images/I/41L3I2RiB4L._SX322_BO1,204,203,200_.jpg",
             "bookname": "FITNESS HABITS: Breaking the Barriers to Fitness",
@@ -439,7 +446,7 @@
             "ratings": "4.2 out of 5",
             "author": "Amaresh Ojha"
           },
-          5:{
+        {
             "buylink": "https://www.amazon.in/Basics-Gym-Fitness-guidance-nutrition/dp/164546153X/ref=sr_1_10?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-10",
             "bookcover": "https://m.media-amazon.com/images/I/41oV6oFP1hL._SX332_BO1,204,203,200_.jpg",
             "bookname": "Basics of Gym and Fitness",
@@ -447,7 +454,7 @@
             "ratings": "3.7 out of 5",
             "author": "Born in Pune, India and having an inclination towards writing, is a lawyer by qualification having experience in business and social work. Is a fitness professional and writer. Writes fitness and nutrition based books along with fiction and non fiction work which is under process and will be coming out with fiction work soon."
           },
-          6:{
+        {
             "buylink": "https://www.amazon.in/Eat-Up-Clean-Personal-Journey/dp/9390183820/ref=sr_1_11_sspa?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-11-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUTlNXR0xPWTdKREQmZW5jcnlwdGVkSWQ9QTA5Mzc1OTUyTkRIWEIwWUE5OVNTJmVuY3J5cHRlZEFkSWQ9QTAwNzgxMTc2R1pIQUVQTFZHUU4md2lkZ2V0TmFtZT1zcF9tdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl",
             "bookcover": "https://m.media-amazon.com/images/I/41+kY+2yhAL._SX460_BO1,204,203,200_.jpg",
             "bookname": "Eat Up, Clean Up",
@@ -455,7 +462,7 @@
             "ratings": "4 out of 5",
             "author": "Manjari wears many hats, including those of a functional nutritionist, wellness coach, entrepreneur, speaker, author, and most importantly a mother. Having worked for many of India’s leading hospitals such as Max Healthcare, Manipal Hospital, and Columbia Asia while running her own platform of Manjari Wellness, she has dedicated her career to changing her patients’ lives by reversing their diseases using modern science and blending it with ancient Indian wisdom, curative herbs along with aiding inclusive health. For her work in the field of nutritional science and entrepreneurship, she has been felicitated with numerous awards such as the ASSOCHAM award for ‘Popular Consultant in the field of Wellness and Nutrition’, the CMO ASIA World Leadership Award for ‘Women Super Achiever’, and the ET NOW Stars of the Industry Awards for ‘Woman Leadership’."
           },
-          7:{
+        {
             "buylink": "https://www.amazon.in/Complete-Book-Yoga-Karma-Bhakti/dp/9389178789/ref=sr_1_12_sspa?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-12-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUTlNXR0xPWTdKREQmZW5jcnlwdGVkSWQ9QTA5Mzc1OTUyTkRIWEIwWUE5OVNTJmVuY3J5cHRlZEFkSWQ9QTEwMjkyNzkyUlNNOFVLUURZU1k1JndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
             "bookcover": "https://m.media-amazon.com/images/I/41sWEKewjdS._SX460_BO1,204,203,200_.jpg",
             "bookname": "The Complete Book of Yoga",
@@ -463,7 +470,7 @@
             "ratings": "4.6 out of 5",
             "author": "Born Narendranath Datta (1863-1902) in Calcutta, capital of British India, Swami Vivekananda belonged to a traditional aristocratic Bengali Kayastha family. Spiritual from an early age, Vivekananda was fascinated by wandering monks and used to practise meditation. He met Ramakrishna in around 1882. It came about as a life-changing experience for him and he eventually became his notable disciple. After Ramakrishna’s death, Vivekananda, along with other disciples, set up the Ramakrishna Math at Baranagar. In December 1886, they all took monastic vows. It was then that he took the name ‘Swami Vivekananda’. He played a major role in introducing yoga and the Vedanta philosophies to the West. It is because of him that Hinduism gained the status of a major world religion. His birthday is observed as the National Youth Day in India and the day he delivered his famous speech at the Parliament of World Religions, September 11, is commemorated as the World Brotherhood Day."
           },
-          8:{
+        {
             "buylink": "https://www.amazon.in/12-Week-Fitness-Project-Hindi/dp/9353451078/ref=sr_1_14?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-14",
             "bookcover": "https://m.media-amazon.com/images/I/41NdDhaIFVL._SX321_BO1,204,203,200_.jpg",
             "bookname": "The 12-Week Fitness Project",
@@ -471,7 +478,7 @@
             "ratings": "4.2 out of 5",
             "author": "Rujuta Diwekar is one of India’s top nutritionists and the author of bestselling books such as Don’t Lose Your Mind, Lose Your Weight and Indian Superfoods."
           },
-          9:{
+        {
             "buylink": "https://www.amazon.in/FIFTY-DAYS-FITNESS-FREAK-LIFE/dp/1647836506/ref=sr_1_15?crid=28NCIA9GROBOP&keywords=books+for+fitness&qid=1665474191&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=books+for+fitness%2Caps%2C693&sr=8-15",
             "bookcover": "https://m.media-amazon.com/images/I/41LwhGro7rL._SX311_BO1,204,203,200_.jpg",
             "bookname": "FIFTY DAYS TO FITNESS",
@@ -479,7 +486,7 @@
             "ratings": "3.9 out of 5",
             "author": "Has been writing fitness articles since 2015 and has been working in the fitness industry since then."
           },
-          10:{
+          {
             "buylink": "https://www.amazon.in/Cognitive-Fitness-Inevitable-Alleviate-Advantage/dp/0648565882/ref=sr_1_16?keywords=books+for+fitness&qid=1665490210&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sr=8-16",
             "bookcover": "https://m.media-amazon.com/images/I/41UDCYaz1-L._SX322_BO1,204,203,200_.jpg",
             "bookname": "Cognitive Fitness",
@@ -487,7 +494,7 @@
             "ratings": "4.4 out of 5",
             "author": "Anil Rajput holds a bachelor of technology degree from IIT Bombay. He has worked with Goldman Sachs, J. P. Morgan, and Merrill Lynch. He lives in Sydney, Australia."
           },
-          11:{
+          {
             "buylink": "https://www.amazon.in/Patanjalis-Yoga-Sutras-Swami-Vivekananda/dp/9389567351/ref=sr_1_21_sspa?keywords=books+for+fitness&qid=1665490210&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sr=8-21-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyM1o2UkE1STM4Q0JVJmVuY3J5cHRlZElkPUEwMzA3MTg5MzFQQ1dSNlBRWFo2TSZlbmNyeXB0ZWRBZElkPUEwMzIwMzE3Mk5YMURXRFhDUEU2RCZ3aWRnZXROYW1lPXNwX2J0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
             "bookcover": "https://m.media-amazon.com/images/I/51b8mwSEc1S._SX460_BO1,204,203,200_.jpg",
             "bookname": "Patanjali’s Yoga Sutras",
@@ -495,7 +502,7 @@
             "ratings": "4.5 out of 5",
             "author": "Born Narendranath Datta (1863-1902) in Calcutta, capital of British India, Swami Vivekananda belonged to a traditional aristocratic Bengali Kayastha family. Spiritual from an early age, Vivekananda was fascinated by wandering monks and used to practise meditation. He met Ramakrishna in around 1882. It came about as a life-changing experience for him and he eventually became his notable disciple. After Ramakrishna’s death, Vivekananda, along with other disciples, set up the Ramakrishna Math at Baranagar. In December 1886, they all took monastic vows. It was then that he took the name ‘Swami Vivekananda’. He played a major role in introducing yoga and the Vedanta philosophies to the West. It is because of him that Hinduism gained the status of a major world religion. His birthday is observed as the National Youth Day in India and the day he delivered his famous speech at the Parliament of World Religions, September 11, is commemorated as the World Brotherhood Day."
           },
-          12:{
+          {
             "buylink": "https://www.amazon.in/Honey-Its-about-Six-Pack-Transformation/dp/1638866236/ref=sr_1_22_sspa?keywords=books+for+fitness&qid=1665490210&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sr=8-22-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyM1o2UkE1STM4Q0JVJmVuY3J5cHRlZElkPUEwMzA3MTg5MzFQQ1dSNlBRWFo2TSZlbmNyeXB0ZWRBZElkPUEwNjM3MjgwM09IRTA5NDhaMkZGViZ3aWRnZXROYW1lPXNwX2J0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
             "bookcover": "https://m.media-amazon.com/images/I/41Agp3uBW3L._SX311_BO1,204,203,200_.jpg",
             "bookname": "Honey, It’s Not about Six-Pack Abs",
@@ -503,7 +510,7 @@
             "ratings": "4.6 out of 5",
             "author": ""
           },
-          13:{
+          {
             "buylink": "https://www.amazon.in/Strength-Training-Anatomy-Frederic-Delavier/dp/0736092269/ref=sr_1_21?keywords=books+for+fitness&qid=1665491486&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&sr=8-21",
             "bookcover": "https://m.media-amazon.com/images/I/51GKL1qnj1L._SX384_BO1,204,203,200_.jpg",
             "bookname": "Strength Training Anatomy",
@@ -511,13 +518,6 @@
             "ratings": "",
             "author": ""
           },
-          14:{
-  "buylink": "https://www.amazon.in/Everyday-Ayurveda-Daily-Habits-Change/dp/8184004575/ref=sr_1_22?keywords=books+for+fitness&qid=1665491486&qu=eyJxc2MiOiIxLjk5IiwicXNhIjoiMC44MSIsInFzcCI6IjAuMDAifQ%3D%3D&smid=A1WYWER0W24N8S&sr=8-22",
-  "bookcover": "https://m.media-amazon.com/images/I/51g4BaBeszS._SX328_BO1,204,203,200_.jpg",
-  "bookname": "Everyday Ayurveda",
-  "bookdetails": "Everyday Ayurveda is the perfect lifestyle guide designed to maximize health, longevity, and happiness the natural way.Do you sometimes feel tired, lethargic and spiritless? How can Ayurveda help in a simple, practisable manner?Time is scarce and precious in today's world, and we seek solutions that are quick. While allopathic medicine tends to focus on the management of disease, the ancient study of dinacharya provides us with holistic knowledge of preventing disease and eliminating its root cause. Taking us through a day in the life of Ayurveda living, Dr Bhaswati Bhattacharya illustrates the core principles of Ayurveda and shows us how to incorporate these in our routine. She explains the logic behind the changes she recommends and how they benefit us. Informative and accessible, Everyday Ayurveda is the perfect lifestyle guide designed to maximize health, longevity and happiness the natural way.Praise for Everyday Ayurveda'Dr Bhaswati has written a book that will help resurrect the knowledge I grew up on, using scientific logic for modern scientists, and slokas for ancient scientists and observers. Her writing will appeal to the intelligent seeker dedicated to achieving a good life using conscious self-care, attention to healthy habits and respect for the wisdom of the ancients.' - Shashi Tharoor, member of parliament 'Bhaswati combines her talents as a healer with passion for sharing truly healing medicine. She has written from the song in her heart that celebrates light, sound and connection with nature.' - Pandits Rajan and Sajan Misra, Padma Bhushan recipients and classical Hindustani vocalists of the Banaras Gharana 'Bhaswati is uniquely able to diagnose like good medical doctors of the past, watching the patient rather than the test result. With a person-centered approach, this book is a tribute to Ayurveda and explains why we should pay more attention to the signals our bodies give us.' - Ashok H. Advani, founder publisher, The Business India Group'Bhaswati has preserved the Sanskrit from which dinacharya emanates. Through her unending curiosity and dedication as a well-trained physician, scientist and professor, she has brought basic concepts of Ayurveda to light. She has toiled and delved deeply with engaging clarity, a fine mind and an extraordinarily connected soul. She teaches Ayurveda authentically because it is in her heart.' - Dr Vd. Chandrabhushan Jha, former dean, faculty of Ayurveda, Banaras Hindu University and professor emeritus of Rasa Shastra'Ancient Ayurvedic rishis developed dinacharya, a way of maintaining normal body rhythms and staying healthy. Assisted by logic and personal accounts, Dr Bhaswati brings dinacharya alive in this book and reinforces its importance and necessity, especially in busy lives.' - Vd. Partap Chauhan, founder of Jiva Ayurveda 'Dr Bhaswati unlocks the age-old tenets of Ayurveda contained in cryptic Sanskrit verses. Her strong roots in tradition and willingness to branch out to the modern world make this book precious, like any true vidya.' - Dr. PR Krishnakumar, Padma Shree recipient and managing director, Arya Vaidya Pharmacy (Coimbatore)'As a fellow Fulbright Scholar, I have witnessed Dr Bhaswati devote her life to researching and preserving Ayurveda, and bringing it back to the hands and hearts of people.' - Gautam Gandhi, former head of new business development, Google India",
-  "ratings": "4.3 out of 5",
-  "author": "Living between Manhattan and Kashi, Dr Bhaswati Bhattacharya is a licensed, board-certified physician, integrating 'Good Medicine' with Ayurveda for the past fifteen years. She is Clinical Assistant Professor of Family Medicine at Weill Cornell Medical College and a PhD researcher in Ayurveda at Banaras Hindu University. She is a 2014 senior Fulbright-Nehru Scholar, recipient of American Medical Association's Leadership Award and the first Indian to speak at Commencement Exercises at Harvard University. Her work is featured in the documentary, Healers: Journey into Ayurveda, on The Discovery Channel. Her website is: www.drbhaswati.com."
-}
-        }
-    );
+        ]
+      }
+  );

@@ -1,48 +1,108 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+import {
+  doc,
+  getFirestore,
+  setDoc,
+  getDoc,
+} from "https://www.gstatic.com/firebasejs/9.8.3/firebase-firestore.js";
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCEVhj9MwCLykglebLehP7v8Ks_H0jXEfg",
+  authDomain: "bookaffiliation.firebaseapp.com",
+  projectId: "bookaffiliation",
+  storageBucket: "bookaffiliation.appspot.com",
+  messagingSenderId: "433705135477",
+  appId: "1:433705135477:web:85dbb193cbdc640f88773c",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
 // dropdown
 var DATA;
-if(localStorage.getItem("currentBookSelection") === null){
-    localStorage.setItem("currentBookSelection","Growth");
+if (localStorage.getItem("currentBookSelection") === null) {
+  localStorage.setItem("currentBookSelection", "Growth");
 }
 category.innerHTML = localStorage.getItem("currentBookSelection");
 // dropdown selection
-document.querySelectorAll(".drop").forEach(drop=>{
-    drop.addEventListener('click',()=>{
-        category.innerHTML = drop.innerHTML;
-        localStorage.setItem("currentBookSelection", drop.innerHTML);
-        showBooks(DATA);
-    })
+document.querySelectorAll(".drop").forEach((drop) => {
+  drop.addEventListener("click", () => {
+    category.innerHTML = drop.innerHTML;
+    localStorage.setItem("currentBookSelection", drop.innerHTML);
+    getBooksData();
+  });
 });
 // json get funciton
-function get(){
-    fetch("books.json")
+function get() {
+  fetch("books.json")
     .then((res) => res.json())
     .then((res) => {
-        showBooks(res);
-    })
+      showBooks(res);
+    });
 }
 
 // show books of selected category
-function showBooks(data){
-    DATA = data
-    let bookSelection = localStorage.getItem("currentBookSelection");
-    // for create instance of books from json
-    let book=""; 
-    for(let j=0;j<data.length;j++){
-        if(data[j].type===bookSelection){
-            for(let i=0;i<data[j].books.length;i++){
-                book += `<section class="book-box">
+function showBooks(data) {
+  DATA = data;
+  let bookSelection = localStorage.getItem("currentBookSelection");
+  // for create instance of books from json
+  let book = "";
+  for (let j = 0; j < data.length; j++) {
+    if (data[j].type === bookSelection) {
+      for (let i = 0; i < data[j].books.length; i++) {
+        book += `<section class="book-box">
                 <span class="temp-title">Title</span>
                 <span class="book-name">${data[j].books[i].title}</span>
                 <img class="book-cover" src="${data[j].books[i].cover}" width="170" height="200">
                 <a class="buy-btn" href="${data[j].books[i].buylink}" alt="buy link">Buy Now</a>
                 </section>`;
-            }
-        }
+      }
     }
-    document.querySelector("#books").innerHTML = book;
+  }
+  document.querySelector("#books").innerHTML = book;
 }
-get();
+// get();
+// getting full docs of books
 
+// show books of selected category
+async function showList(Data) {
+  let data = Data;
+  // for create instance of books from json
+  let book = "";
+  for (let i = 0; i < data.length; i++) {
+    book += `<section class="book-box">
+                <span class="temp-title">Title</span>
+                <span class="book-name">${data[i].bookname}</span>
+                <img class="book-cover" src="${data[i].bookcover}" width="170" height="200">
+                <a class="buy-btn" href="${data[i].buylink}" alt="buy link">Buy Now</a>
+                </section>`;
+  }
+  document.querySelector("#books").innerHTML = book;
+}
 
-
-
+async function getBooksData() {
+  const incomeSnap = await getDoc(doc(db, "bookData", "income"));
+  const mindSnap = await getDoc(doc(db, "bookData", "mind"));
+  const growthSnap = await getDoc(doc(db, "bookData", "growth"));
+  const fitnessSnap = await getDoc(doc(db, "bookData", "fitness"));
+  const income = incomeSnap.data();
+  const fitness = fitnessSnap.data();
+  const mind = mindSnap.data();
+  const growth = growthSnap.data();
+  let bookSelection = localStorage.getItem("currentBookSelection");
+  let booksData;
+  if (bookSelection == "Income") {
+    booksData = income.books;
+  } else if (bookSelection == "Fitness") {
+    booksData = fitness.books;
+  } else if (bookSelection == "Mind") {
+    booksData = mind.books;
+  } else if (bookSelection == "Growth") {
+    booksData = growth.books;
+  }
+  console.log(booksData);
+  showList(booksData);
+}
+getBooksData();

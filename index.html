@@ -47,7 +47,7 @@
         <a class="buy-btn" href="#" alt="buy link">Buy Now</a>
       </section>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
     <!-- <script src="/db/fb.js" type="module"></script> -->
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
@@ -57,9 +57,6 @@
         setDoc,
         getDoc,
       } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-firestore.js";
-
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
 
       // Your web app's Firebase configuration
       const firebaseConfig = {
@@ -75,18 +72,28 @@
       const app = initializeApp(firebaseConfig);
       const db = getFirestore(app);
 
-      // getting full docs of books
-      const docRef = doc(db, "books","income");
-      const docSnap = await getDoc(docRef);
-      const incomeSnap = await getDoc(doc(db, "books","income"));
-      const mindSnap = await getDoc(doc(db, "books","mind"));
-      const growthSnap = await getDoc(doc(db, "books","growth"));
-      const fitnessSnap = await getDoc(doc(db, "books","fitness"));
+      
+      //* redering data according to selection
+      function showBookList(bookData){
+        data = bookData;
+        // for create instance of books from json
+        let book=""; 
+        for(let j=0;j<data.length;j++){
+            if(data[j].type===bookSelection){
+                for(let i=0;i<data[j].books.length;i++){
+                    book += `<section class="book-box">
+                    <span class="temp-title">Title</span>
+                    <span class="book-name">${data[j].books[i].title}</span>
+                    <img class="book-cover" src="${data[j].books[i].cover}" width="170" height="200">
+                    <a class="buy-btn" href="${data[j].books[i].buylink}" alt="buy link">Buy Now</a>
+                    </section>`;
+                }
+            }
+        }
+        document.querySelector("#books").innerHTML = book;
+      }
 
-      console.log(incomeSnap.data());
-      console.log(mindSnap.data());
-      console.log(growthSnap.data());
-      console.log(fitnessSnap.data());
+      
      
     </script>
   </body>
