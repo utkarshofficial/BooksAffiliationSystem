@@ -26,7 +26,12 @@ if (localStorage.getItem("currentBookSelection") === null) {
   localStorage.setItem("currentBookSelection", "Growth");
 }
 category.innerHTML = localStorage.getItem("currentBookSelection");
-// dropdown selection
+//* dropdown selection
+// show dropdown on click button
+document.querySelector("#showDrop").addEventListener("click",()=>{
+  //* for show dropdown after click
+  document.querySelector("#dropContent").classList.remove("hide");
+})
 document.querySelectorAll(".drop").forEach((drop) => {
   drop.addEventListener("click", () => {
     category.innerHTML = drop.innerHTML;
@@ -35,6 +40,9 @@ document.querySelectorAll(".drop").forEach((drop) => {
     let loadingBooksDummy = '<section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span><div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>  <section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span>    <div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>  <section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span>    <div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>  <section class="book-box">    <span class="temp-title">Loading...</span>    <span class="book-name"></span>    <div class="spinner-box">      <div class="lds-ripple"><div></div><div></div></div>    </div>    <a class="buy-btn" href="#" alt="buy link">Fetching...</a>  </section>';
     document.querySelector("#books").innerHTML = loadingBooksDummy;
     getBooksData();
+
+    //* for dropdown hide after click
+    document.querySelector("#dropContent").classList.add("hide");
   });
 });
 
@@ -51,7 +59,7 @@ async function showList(Data) {
                 <span class="temp-title">Title</span>
                 <span class="book-name">${data[i].bookname}</span>
                 <img class="book-cover" src="${data[i].bookcover}" width="170" height="200">
-                <a class="buy-btn" href="${data[i].buylink}" alt="buy link">Buy Now</a>
+                <a class="buy-btn" target="_blank" href="${data[i].buylink}" alt="buy link">Buy Now</a>
                 </section>`;
   }
   document.querySelector("#books").innerHTML = book;
@@ -78,7 +86,12 @@ async function getBooksData() {
   } else if (bookSelection == "Growth") {
     booksData = growth.books;
   }
-  console.log(booksData);
   showList(booksData);
 }
 getBooksData();
+
+// for dropdown
+function hideAfterClick(){
+  let drop = document.querySelectorAll(".drop");
+  drop.addEventListener('click',)
+}
